@@ -1,10 +1,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy everything and list for debug
+# Copy repo root and debug
 COPY . .
-RUN dotnet restore backend/src/WebApi/WebApi.csproj
-RUN ls -R || dir  # Linux or Windows debug—see what’s there
+RUN find . -type f  # List all files to see structure
+
+# Restore with full path from /src
+RUN dotnet restore ./backend/src/WebApi/WebApi.csproj
 
 # Build
 WORKDIR /src/backend/src/WebApi
