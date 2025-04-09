@@ -10,3 +10,15 @@
 /home/kodoninja/Velocity.social/backend/src/Core/obj/Debug/net8.0/refint/Core.dll
 /home/kodoninja/Velocity.social/backend/src/Core/obj/Debug/net8.0/Core.pdb
 /home/kodoninja/Velocity.social/backend/src/Core/obj/Debug/net8.0/ref/Core.dll
+/project/workspace/backend/src/Core/bin/Debug/net8.0/Core.deps.json
+/project/workspace/backend/src/Core/bin/Debug/net8.0/Core.dll
+/project/workspace/backend/src/Core/bin/Debug/net8.0/Core.pdb
+/project/workspace/backend/src/Core/obj/Debug/net8.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/project/workspace/backend/src/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache
+/project/workspace/backend/src/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs
+/project/workspace/backend/src/Core/obj/Debug/net8.0/Core.csproj.CoreCompileInputs.cache
+/project/workspace/backend/src/Core/obj/Debug/net8.0/Core.sourcelink.json
+/project/workspace/backend/src/Core/obj/Debug/net8.0/Core.dll
+/project/workspace/backend/src/Core/obj/Debug/net8.0/refint/Core.dll
+/project/workspace/backend/src/Core/obj/Debug/net8.0/Core.pdb
+/project/workspace/backend/src/Core/obj/Debug/net8.0/ref/Core.dll

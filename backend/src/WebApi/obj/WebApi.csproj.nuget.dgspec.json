@@ -1,36 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/home/kodoninja/Velocity.social/backend/src/WebApi/WebApi.csproj": {}
+    "/project/workspace/backend/src/WebApi/WebApi.csproj": {}
   },
   "projects": {
-    "/home/kodoninja/Velocity.social/backend/src/Application/Application.csproj": {
+    "/project/workspace/backend/src/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kodoninja/Velocity.social/backend/src/Application/Application.csproj",
+        "projectUniqueName": "/project/workspace/backend/src/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/kodoninja/Velocity.social/backend/src/Application/Application.csproj",
-        "packagesPath": "/home/kodoninja/.nuget/packages/",
-        "outputPath": "/home/kodoninja/Velocity.social/backend/src/Application/obj/",
+        "projectPath": "/project/workspace/backend/src/Application/Application.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/project/workspace/backend/src/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kodoninja/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/kodoninja/Velocity.social/backend/src/Core/Core.csproj": {
-                "projectPath": "/home/kodoninja/Velocity.social/backend/src/Core/Core.csproj"
+              "/project/workspace/backend/src/Core/Core.csproj": {
+                "projectPath": "/project/workspace/backend/src/Core/Core.csproj"
               },
-              "/home/kodoninja/Velocity.social/backend/src/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/kodoninja/Velocity.social/backend/src/Infrastructure/Infrastructure.csproj"
+              "/project/workspace/backend/src/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/project/workspace/backend/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -43,17 +43,16 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -72,31 +71,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/kodoninja/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/kodoninja/Velocity.social/backend/src/Core/Core.csproj": {
+    "/project/workspace/backend/src/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kodoninja/Velocity.social/backend/src/Core/Core.csproj",
+        "projectUniqueName": "/project/workspace/backend/src/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/home/kodoninja/Velocity.social/backend/src/Core/Core.csproj",
-        "packagesPath": "/home/kodoninja/.nuget/packages/",
-        "outputPath": "/home/kodoninja/Velocity.social/backend/src/Core/obj/",
+        "projectPath": "/project/workspace/backend/src/Core/Core.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/project/workspace/backend/src/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kodoninja/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -108,13 +107,12 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -131,34 +129,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/kodoninja/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/kodoninja/Velocity.social/backend/src/Infrastructure/Infrastructure.csproj": {
+    "/project/workspace/backend/src/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kodoninja/Velocity.social/backend/src/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/project/workspace/backend/src/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/kodoninja/Velocity.social/backend/src/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/home/kodoninja/.nuget/packages/",
-        "outputPath": "/home/kodoninja/Velocity.social/backend/src/Infrastructure/obj/",
+        "projectPath": "/project/workspace/backend/src/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/project/workspace/backend/src/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kodoninja/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/kodoninja/Velocity.social/backend/src/Core/Core.csproj": {
-                "projectPath": "/home/kodoninja/Velocity.social/backend/src/Core/Core.csproj"
+              "/project/workspace/backend/src/Core/Core.csproj": {
+                "projectPath": "/project/workspace/backend/src/Core/Core.csproj"
               }
             }
           }
@@ -171,29 +169,22 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.4, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -212,37 +203,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/kodoninja/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/kodoninja/Velocity.social/backend/src/WebApi/WebApi.csproj": {
+    "/project/workspace/backend/src/WebApi/WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kodoninja/Velocity.social/backend/src/WebApi/WebApi.csproj",
+        "projectUniqueName": "/project/workspace/backend/src/WebApi/WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "/home/kodoninja/Velocity.social/backend/src/WebApi/WebApi.csproj",
-        "packagesPath": "/home/kodoninja/.nuget/packages/",
-        "outputPath": "/home/kodoninja/Velocity.social/backend/src/WebApi/obj/",
+        "projectPath": "/project/workspace/backend/src/WebApi/WebApi.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/project/workspace/backend/src/WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kodoninja/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/kodoninja/Velocity.social/backend/src/Application/Application.csproj": {
-                "projectPath": "/home/kodoninja/Velocity.social/backend/src/Application/Application.csproj"
+              "/project/workspace/backend/src/Application/Application.csproj": {
+                "projectPath": "/project/workspace/backend/src/Application/Application.csproj"
               },
-              "/home/kodoninja/Velocity.social/backend/src/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/kodoninja/Velocity.social/backend/src/Infrastructure/Infrastructure.csproj"
+              "/project/workspace/backend/src/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/project/workspace/backend/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -255,35 +246,34 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.4, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -309,7 +299,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/kodoninja/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c55NkFTpfZY=",
+  "dgSpecHash": "50/Pes9dIvSZzThVct0SbEfIm7fAmRvMGQR55SvR+Kmbt/ih+6w9nqVonBYRDKEGrU+/eAfYkHWvFmhR1trYnw==",
   "success": true,
-  "projectFilePath": "/home/kodoninja/Velocity.social/backend/src/Core/Core.csproj",
+  "projectFilePath": "/project/workspace/backend/src/Core/Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
