@@ -1,0 +1,31 @@
+CREATE TABLE Users (
+    Id UUID PRIMARY KEY,
+    Username VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) NOT NULL,
+    CreatedAt TIMESTAMP NOT NULL
+);
+
+CREATE TABLE GameProfiles (
+    Id UUID PRIMARY KEY,
+    UserId UUID NOT NULL,
+    Platform VARCHAR(50) NOT NULL,
+    GamerTag VARCHAR(50) NOT NULL,
+    FOREIGN KEY (UserId) REFERENCES Users(Id)
+);
+
+CREATE TABLE Friends (
+    UserId UUID NOT NULL,
+    FriendId UUID NOT NULL,
+    ConnectedAt TIMESTAMP NOT NULL,
+    PRIMARY KEY (UserId, FriendId),
+    FOREIGN KEY (UserId) REFERENCES Users(Id),
+    FOREIGN KEY (FriendId) REFERENCES Users(Id)
+);
+
+CREATE TABLE Posts (
+    Id UUID PRIMARY KEY,
+    UserId UUID NOT NULL,
+    Content TEXT NOT NULL,
+    CreatedAt TIMESTAMP NOT NULL,
+    FOREIGN KEY (UserId) REFERENCES Users(Id)
+);

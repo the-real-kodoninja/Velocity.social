@@ -1,52 +1,29 @@
 using Microsoft.EntityFrameworkCore;
+using VelocitySocial.Application.Services;
+using VelocitySocial.Core.Interfaces;
 using VelocitySocial.Infrastructure.Data;
+using System.Text.Json.Serialization; // Add this
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
-builder.Services.AddControllers(); // Adds support for controllers
+// Add services
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve; // Handle cycles
+        options.JsonSerializerOptions.WriteIndented = true; // Optional: prettier JSON
+    });
 builder.Services.AddDbContext<VelocityDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))); // Configures PostgreSQL database context
-builder.Services.AddEndpointsApiExplorer(); // Enables API exploration for minimal APIs
-builder.Services.AddSwaggerGen(); // Adds Swagger generation
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"),
+        b => b.MigrationsAssembly("Infrastructure")));
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IGameProfileService, GameProfileService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger(); // Enables Swagger UI in development
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection(); // Redirects HTTP to HTTPS
-app.UseAuthorization(); // Adds authorization middleware
-app.MapControllers(); // Maps controller routes
-
-// Weather forecast endpoint
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+// Configure middleware
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

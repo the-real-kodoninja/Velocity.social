@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LLD5qFr8SbI=",
+  "dgSpecHash": "sBynnJOF09M=",
   "success": true,
   "projectFilePath": "/home/kodoninja/Velocity.social/backend/src/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "/home/kodoninja/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.4/microsoft.entityframeworkcore.analyzers.9.0.4.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/microsoft.entityframeworkcore.design/9.0.4/microsoft.entityframeworkcore.design.9.0.4.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.4/microsoft.entityframeworkcore.relational.9.0.4.nupkg.sha512",
+    "/home/kodoninja/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.4/microsoft.entityframeworkcore.tools.9.0.4.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.4/microsoft.extensions.caching.abstractions.9.0.4.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/microsoft.extensions.caching.memory/9.0.4/microsoft.extensions.caching.memory.9.0.4.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.4/microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512",
@@ -40,11 +41,9 @@
     "/home/kodoninja/.nuget/packages/system.composition.hosting/7.0.0/system.composition.hosting.7.0.0.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/system.composition.runtime/7.0.0/system.composition.runtime.7.0.0.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg.sha512",
-    "/home/kodoninja/.nuget/packages/system.diagnostics.diagnosticsource/9.0.4/system.diagnostics.diagnosticsource.9.0.4.nupkg.sha512",
-    "/home/kodoninja/.nuget/packages/system.io.pipelines/9.0.4/system.io.pipelines.9.0.4.nupkg.sha512",
+    "/home/kodoninja/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/home/kodoninja/.nuget/packages/system.text.encodings.web/9.0.4/system.text.encodings.web.9.0.4.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/system.text.json/9.0.4/system.text.json.9.0.4.nupkg.sha512",
     "/home/kodoninja/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
   ],

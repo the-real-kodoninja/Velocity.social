@@ -1,0 +1,6 @@
+/home/kodoninja/Velocity.social/backend/src/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/home/kodoninja/Velocity.social/backend/src/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/kodoninja/Velocity.social/backend/src/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/home/kodoninja/Velocity.social/backend/src/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/home/kodoninja/Velocity.social/backend/src/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/home/kodoninja/Velocity.social/backend/src/Application/obj/Debug/net8.0/Application.sourcelink.json
