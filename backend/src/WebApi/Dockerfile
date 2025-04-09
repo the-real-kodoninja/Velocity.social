@@ -1,8 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy entire repo
-COPY ../../ ./
+# Copy from repo root
+COPY . ./
 RUN dotnet restore backend/src/WebApi/WebApi.csproj
 
 # Build WebApi
