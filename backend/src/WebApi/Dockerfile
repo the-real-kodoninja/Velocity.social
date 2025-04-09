@@ -1,11 +1,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy from repo root
-COPY . ./
+# Copy everything and list for debug
+COPY . .
+RUN ls -R || dir  # Linux or Windows debug—see what’s there
 RUN dotnet restore backend/src/WebApi/WebApi.csproj
 
-# Build WebApi
+# Build
 WORKDIR /src/backend/src/WebApi
 RUN dotnet publish -c Release -o out
 
