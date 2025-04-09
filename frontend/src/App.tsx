@@ -22,7 +22,7 @@ interface ApiResponse {
 const App: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [newUser, setNewUser] = useState<{ username: string; email: string }>({ username: '', email: '' });
-  const apiUrl = 'https://c2ydtn-5280.csb.app/api/users';
+  const apiUrl = 'https://https://velocity-social-backend.onrender.com/api/users';
 
   const fetchUsers = async () => {
     try {
