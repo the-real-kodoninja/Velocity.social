@@ -1,0 +1,16 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Welcome to **velocity.social**, the pinnacle of gaming social networks—a dynamic, interconnected platform where players, developers, and creators converge to play, build, and thrive within the boundless **Kodoverse**. Backed by **Velocity Corporation** and powered by **Aviyon Corporation**’s visionary tech, velocity.social is more than a community hub; it’s a gateway to immersive gaming worlds like **Kodocity: Enter the Kodoverse** and **Kodokitty in the Kodoverse**, a marketplace for NFTs and custom assets, and a social space that bridges real-world gaming networks—Xbox, Steam, Twitch, Mixer—with the Kodoverse’s decentralized chaos. Integrated with **Nimbus.ai**, this is where gaming transcends boundaries, fueled by a player-driven economy and infinite creative potential.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
