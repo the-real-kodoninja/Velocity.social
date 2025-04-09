@@ -3,8 +3,8 @@ WORKDIR /src
 
 # Copy everything and list for debug
 COPY . .
-RUN ls -R || dir  # Linux or Windows debug—see what’s there
 RUN dotnet restore backend/src/WebApi/WebApi.csproj
+RUN ls -R || dir  # Linux or Windows debug—see what’s there
 
 # Build
 WORKDIR /src/backend/src/WebApi
